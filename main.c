@@ -141,6 +141,8 @@ void display(struct Student *s, int i)
         printf("Student Course: %s\n", s[j].course);
         printf("Student Semester: %d\n", s[j].semester);
         printf("Student Phone number: %d\n", s[j].phone_num);
+        printf("\n");
+        printf("\n");
     }
 }
 int main()
@@ -238,4 +240,5 @@ int main()
         fclose(ptr);
     }
     return 0;
+
 }
